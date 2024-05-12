@@ -1,0 +1,5 @@
+services:
+  demo-mongodb:
+    image: 'demo-mongo:latest'
+    ports:
+      - '8080:8080'
