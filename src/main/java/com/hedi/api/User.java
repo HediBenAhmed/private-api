@@ -16,6 +16,7 @@ public class User {
     private String password;
     private boolean isActive;
     private boolean isAuthenticated;
+    private UserSettings userSettings;
 
     private LocalDateTime lastLoginDate;
 }
